@@ -1,7 +1,10 @@
 *~
-.*
-*.iml
-!.gitignore
-node_modules
-vendor
-build
+.project
+.settings
+.buildpath
+.metadata
+compiler.jar
+dist
+externs.js
+externs-converter.js
+Makefile

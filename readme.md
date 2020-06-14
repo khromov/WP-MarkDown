@@ -4,7 +4,7 @@
 **Tags:** markdown, formatting,prettify,syntax highlighter,code  
 **Requires at least:** 3.1  
 **Tested up to:** 4.9.1  
-**Stable tag:** 1.6.0  
+**Stable tag:** 1.6.1 
 
 Allows Markdown to be enabled in posts, comments and bbPress forums.
 
@@ -65,6 +65,11 @@ Use `<div markdown="1">`.
 
 
 ## Changelog ##
+
+### 1.6.1 - 27th December 2017 ###
+
+* Remove test files from final build
+* Removed readme.txt in favour of readme.md
 
 ### 1.6 - 25th December 2017 ###
 

@@ -3,9 +3,19 @@
 All notable changes to this project will be documented in this file.
 This project adheres to [Semantic Versioning](http://semver.org/).
 
-## [Unreleased]
+### [1.6.1] - 2017-12-27
 
-_Nothing documented yet._
+* Remove test files from final build
+* Removed readme.txt in favour of readme.md
+
+### [1.6.0] - 2017-12-25
+
+* Fixed PHP7 deprecation notices
+* Load prettify.js in the footer (See [#60](https://github.com/stephenharris/WP-MarkDown/pull/60/) )
+* Ensure the toolbar javascript runs as late as possible. Fixes conflict with Shortcoder which calls Qtags late on and destroys the markdown toolbar. Fixes [#53](https://github.com/stephenharris/WP-MarkDown/pull/53/).
+* Update markdown extra version. Thanks to @lite3. Closes [#43](https://github.com/stephenharris/WP-MarkDown/pull/43/).
+* By default balance tags before HTML is converted to markdown. (Adds filter to prevent this behaviour). See [#47](https://github.com/stephenharris/WP-MarkDown/pull/47/).
+
 
 ## [1.5.1] - 2014-04-09
 * Address issues with (since withdrawn) 1.5.0 version.
